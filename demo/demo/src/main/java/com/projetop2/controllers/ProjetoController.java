@@ -1,5 +1,11 @@
 package com.projetop2.controllers;
 
+/*
+Alan Ribeiro do Carmo 10428496
+Wendell Rodrigues da Costa 10428555
+Jennifer Tondade 10420574
+*/
+
 import com.projetop2.entities.Projeto;
 import com.projetop2.repositories.ProjetoRepository;
 import org.springframework.beans.factory.annotation.Autowired;

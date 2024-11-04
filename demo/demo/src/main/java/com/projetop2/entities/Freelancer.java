@@ -1,5 +1,11 @@
 package com.projetop2.entities;
 
+/*
+Alan Ribeiro do Carmo 10428496
+Wendell Rodrigues da Costa 10428555
+Jennifer Tondade 10420574
+*/
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
