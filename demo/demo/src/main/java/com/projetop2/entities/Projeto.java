@@ -6,6 +6,7 @@ Wendell Rodrigues da Costa 10428555
 Jennifer Tondade 10420574
 */
 
+import java.util.List;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -26,5 +27,6 @@ public class Projeto {
     private String descricao;
     private String categoria;
     private double orcamento;
-
+    @OneToMany
+    private List<Freelancer> freelancers;
 }

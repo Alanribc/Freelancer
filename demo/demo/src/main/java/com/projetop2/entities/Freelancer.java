@@ -1,5 +1,7 @@
 package com.projetop2.entities;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 /*
 Alan Ribeiro do Carmo 10428496
 Wendell Rodrigues da Costa 10428555
@@ -27,5 +29,10 @@ public class Freelancer {
     private String habilidades;
     private double avaliacao;
     private Long numero;
+
+    @JsonBackReference
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Projeto projeto;
+
 
 }
